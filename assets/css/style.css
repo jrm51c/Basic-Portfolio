@@ -10,7 +10,7 @@ header    {
  }
 
  #header    {
-    background-color: white; 
+    background-color: white;
     height: 80px;
     width: 960px;
     margin: auto;
@@ -20,10 +20,14 @@ main  {
     background-color: #ffffff;
     border: solid #dddddd 3px;
     width: 930px;
-    height: 500px;
+    height: 400px;
     margin: auto;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 20px;
+}
+
+#gallery   {
+    height: 800px;
 }
 
 
@@ -31,25 +35,37 @@ h1 {
     background-color: #4aaaa5;
     color: white;
     font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 25px;
+    font-weight: 600;
     height: 80px;
     width: 25%;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
     line-height: 80px;
     float: left;
+    padding-left: 15px;
 }
 
 ul  {
-    list-style-type: none;
+    /*list-style-type: none;
     margin: 0;
-    padding: 0;
-    background-color: orange;
+    padding: 0;*/
+    background-color: red;
     float: right;
+    height: 100%;
     width: 33%;
+
 }
 
 li  {
-    display: inline;
+    /*display: inline;*/
+    float:right;
+    padding: 20px;
+    border-right: solid #dddddd 3px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+    text-align: middle;
+    vertical-align: middle;
 }
 
 h2  {
@@ -57,25 +73,21 @@ h2  {
     border-bottom: solid grey 5px;
     color: #4aaaa5;
     font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 25px;
+    font-weight: 600;
     height: 80px;
     width: 930px;
-    padding-left: 15px;
+    padding-left: 5px;
     text-align: left;
     vertical-align: middle;
     line-height: 80px;
 }
 
-/*nav {
-    background-color: black;
-    height: 80px;
-    float: right;
-}*/
-
-#about  {
+/*#about  {
     background-color: coral;
     height: 100px;
     width: 100%;
-}
+}*/
 
 p   {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -84,18 +96,141 @@ p   {
 
 #bioPic {
     float: left;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     margin-right: 10px;
 }
+
+#tiger  {
+    background-color: yellow;
+    width:300px;
+}
+
+#tigerPic   {
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+#gorillaPic     {
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+#horsePic   {
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+#rhinoPic   {
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+#nutsPic    {
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+
 
 footer  {
     background-color: #666666;
     border-top: solid #4aaaa5 10px;
     height: 80px;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 150px;
     text-align: center;
+    vertical-align: middle;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: white;
 }
+
+h6  {
+    margin-top: 60px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#name   {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#txtName  {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#email  {
+    margin-bottom: 5px;
+}
+
+#txtEmail {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#message    {
+    margin-bottom: 5px;
+}
+
+#txtMessage   {
+    height: 25%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#btnSubmit  {
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+h4  {
+    background-color: blue;
+    height: 10px;
+}
+
+
+
+#linkAbout  {
+    background-color: pink;
+    float: right;
+    height: 100%;
+    width: 20%;
+}
+
+#linkPortfolio    {
+    background-color:yellow;
+    float: right;
+    height: 100%;
+    width: 20%;
+}
+
+#linkContact    {
+    background-color: red;
+    float: right;
+    height: 100%;
+    width: 20%;
+}
+
+
+
+
